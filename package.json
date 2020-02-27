@@ -1,0 +1,22 @@
+{
+  "name": "redux-middlewares",
+  "version": "0.0.1",
+  "description": "Redux middlewares",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainendra/redux-middlewares.git"
+  },
+  "keywords": [
+    "Redux"
+  ],
+  "author": "Mainendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mainendra/redux-middlewares/issues"
+  },
+  "homepage": "https://github.com/mainendra/redux-middlewares#readme"
+}
