@@ -3,7 +3,7 @@ const promiseMiddleware = store => next => action => {
         next({
             type: `${action.type}_INPROGRESS`
         });
-        
+
         return action.promiseFn({ ...store }).then(resp => {
             next({
                 type: `${action.type}_SUCCESS`,
@@ -17,7 +17,7 @@ const promiseMiddleware = store => next => action => {
             throw error;
         });
     }
-    
+
     return next(action);
 };
 

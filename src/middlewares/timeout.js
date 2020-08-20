@@ -10,3 +10,4 @@ const timeoutMiddleware = store => next => action => {
 };
 
 export default timeoutMiddleware;
+

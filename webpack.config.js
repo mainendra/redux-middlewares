@@ -41,9 +41,6 @@ module.exports = (env = {}) => {
         },
         plugins: [
             new CleanWebpackPlugin(),
-            new CopyWebpackPlugin([{
-                from: '*.html'
-            }]),
             new webpack.ProvidePlugin({
                 'React': 'react'
             })
