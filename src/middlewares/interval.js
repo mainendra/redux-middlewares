@@ -1,5 +1,5 @@
 const intervalMiddleware = store => next => action => {
-    if (action.type === 'TIMEOUT') {
+    if (action.type === 'INTERVAL') {
         const intervalId = setInterval(() => action.callBack({...store}), action.delay);
         return function cancel() {
             clearInterval(intervalId);

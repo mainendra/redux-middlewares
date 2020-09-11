@@ -1,9 +1,17 @@
 import React from 'react';
 
+import Interval from '../shared/interval';
+import Timer from '../shared/timer';
+import Users from '../shared/users';
+
 const App = () => {
     return (
         <>
-            <h1>React Middlewares Test</h1>
+            <Interval />
+            <hr />
+            <Timer />
+            <hr />
+            <Users />
         </>
     )
 }
