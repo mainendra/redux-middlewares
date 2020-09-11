@@ -11,3 +11,5 @@ Install [browser extension](https://chrome.google.com/webstore/detail/redux-devt
 # Output
 
 <img src="output.png" width="800px">
+
+<img src="dev-tools.png" width="800px">
